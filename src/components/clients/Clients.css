@@ -1,0 +1,133 @@
+.clients{
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-color: #1b1b23;
+}
+
+.text-area{
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 70px;
+
+}
+
+.header-clients-first{
+    margin-top: 100px;
+    font-size: 42px;
+    letter-spacing: 3px;
+    line-height: 42px;
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl 900 Black Italic", sans-serif;
+    z-index: 3;
+    position: relative;
+}
+
+.header-clients-twice{
+    margin-top: -72px;
+    margin-left: 1px;
+    font-size: 42px;
+    letter-spacing: 3px;
+    line-height: 42px;
+    color: rgb(255,223,43);
+    font-family: "Museo Sans Cyrl 900 Black Italic", sans-serif;
+    z-index: 2;
+    position: relative;
+}
+
+.header-clients-third{
+    margin-top: -66px;
+    margin-left: -2px;
+    font-size: 42px;
+    letter-spacing: 3px;
+    line-height: 42px;
+    color: rgb(254,53,214);
+    font-family: "Museo Sans Cyrl 900 Black Italic", sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+.text-clients{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    float: left;
+    margin-top: -20px;
+}
+
+.text-clients.gold{
+    color: #ffdf2b;
+    float: left;
+    margin-left: 8px;
+}
+
+.clients-list{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.clients-icon{
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: left;
+    margin-right: 20px;
+}
+
+.clients-icon.spar{
+    background-image: url(./img/spar.jpg);
+}
+
+.clients-icon.wgym{
+    background-image: url(./img/wgym.jpg);
+}
+
+.clients-icon.mattel{
+    background-image: url(./img/mattel.jpg);
+}
+
+.clients-icon.hasbro{
+    background-image: url(./img/hasbro.jpg);
+}
+
+.clients-icon.clinique{
+    background-image: url(./img/clinique.jpg);
+}
+
+.clients-icon.skip{
+    background-image: url(./img/skip.jpg);
+}
+
+.clients-icon.tv3{
+    background-image: url(./img/tv3.jpg);
+}
+
+.clients-icon.phase{
+    background-image: url(./img/phase.jpg);
+}
+
+.clients-icon.gogol{
+    background-image: url(./img/gogol.jpg);
+}
+
+.clients-icon.sber{
+    background-image: url(./img/sber.jpg);
+}
+
+.clients-icon.cska{
+    background-image: url(./img/cska.jpg);
+}
+
+.clients-icon.abbyy{
+    background-image: url(./img/abbyy.jpg);
+}
